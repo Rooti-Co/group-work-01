@@ -38,3 +38,51 @@ $article-title-color: #3677fd;
     bottom: 0;
     background-color: rgba(0, 0, 0, 0.7);
 }
+
+.button {
+    background-color: rgb(255, 255, 255);
+    color: rgb(54, 149, 255);
+
+    font-family: $primary-font;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 16px;
+    line-height: 1.875;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 204px;
+    height: 55px;
+    border-radius: 27.5px;
+
+    &--blue {
+        background: linear-gradient(0deg, rgba(54, 149, 255, 1) 0%, rgba(53, 100, 252, 1) 100%);
+        color: rgb(255, 255, 255);
+    }
+
+    &--small {
+        width: 112px;
+        height: 30px;
+        color: rgb(25, 66, 119);
+        line-height: 1.364;
+        font-size: 12px;
+        border-radius: 15px;
+
+        // Не впевнений чи потрібно
+        // -moz-transform: matrix( 0.54901960784314,0,0,0.54545454545455,0,0);
+        // -webkit-transform: matrix( 0.54901960784314,0,0,0.54545454545455,0,0);
+        // -ms-transform: matrix( 0.54901960784314,0,0,0.54545454545455,0,0);
+    }
+
+    &--red {
+        width: 288px;
+        height: 93px;
+        border-radius: 5px;
+        background-color: rgb(235, 48, 77);
+        font-family: $secondary-font;
+        color: rgb(255, 255, 255);
+        line-height: 1.2;
+        font-size: 24px;
+    }
+}

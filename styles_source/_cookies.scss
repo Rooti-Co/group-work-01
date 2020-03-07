@@ -1,5 +1,54 @@
 // (C) RootiCo
+$color-bg-cookies: rgb(25, 66, 119);
+
 
 .cookies {
-    background-color: orange;
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    // height: $block-height;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: $color-bg-cookies;
+
+    &__message {
+        font-family: $primary-font;
+        color: $color-text-secondary;
+        font-weight: 400;
+        margin-right: 50px;
+        margin-top: 16px;
+        margin-bottom: 13px;
+        text-align: center;
+    }
+
+    &__button {
+        margin-top: 16px;
+        margin-bottom: 13px;
+    }
+
+
+
+    &--hidden{
+        transition: all 0.5s ease;
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .cookies{
+        flex-direction: column;
+        
+        &__message {
+            margin-left: 15px;
+            margin-right: 15px;
+        }
+
+        &__button {
+            margin-top: 0;
+        }
+    }
 }

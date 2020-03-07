@@ -16,6 +16,21 @@
         .latest-works__works-section{
             margin: 0 auto;
             margin-bottom: 200px;
+            .works-section__work-container{
+                    border-style: solid;
+                    border-width: 1px;
+                    border-color: rgb(244, 244, 244);
+                    border-radius: 10px;
+                    background-color: rgb(244, 244, 244);
+                    padding-left: 43px;
+                    padding-right: 43px;
+                    margin: 0 auto;
+                    display: flex;
+                    justify-content: center;
+                    align-content: center;
+                .works-section__work-box{
+                }
+            }
         }
     }
 }

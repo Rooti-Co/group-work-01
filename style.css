@@ -4325,6 +4325,14 @@ body {
   padding-left: 15px;
 }
 
+.global_hire-popup-off {
+  display: none;
+}
+
+.visible {
+  display: block;
+}
+
 .hire {
   background-color: orange;
 }

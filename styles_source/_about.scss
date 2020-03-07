@@ -11,4 +11,9 @@
     text-align: center;
     line-height: 35px;
     padding-top: 70px;
+    &_brake {
+        @media screen and (max-width: 1039px) {
+            display: none;
+    }
+}
 }

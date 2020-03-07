@@ -4293,6 +4293,12 @@ body {
   padding-top: 70px;
 }
 
+@media screen and (max-width: 1039px) {
+  .about_article_brake {
+    display: none;
+  }
+}
+
 .clients {
   background-color: orange;
 }

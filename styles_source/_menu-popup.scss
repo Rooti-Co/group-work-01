@@ -1,4 +1,9 @@
-
+.menu-popup--off {
+   
+}
+.menu-popup--on {
+    display: block;
+}
 .menu-popup {
     position: fixed;
     top: 0;
@@ -38,6 +43,7 @@
 }
 .menu-popup__icon:hover {
     background-color: #3677fd;
+    cursor: pointer;
 }
 .menu-popup__language {
 font-family: $primary-font;

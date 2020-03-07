@@ -1,5 +1,19 @@
 // (C) RootiCo
 
+$color-bg-cookies: 
+
 .cookies {
-    background-color: orange;
+    position: fixed;
+    width: 100vw;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: $color-bg-cookies;
+
+    &__message {
+        font-family: $primary-font;
+        color: white;
+    }
 }

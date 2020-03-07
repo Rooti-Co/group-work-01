@@ -4248,6 +4248,7 @@ body {
           justify-content: center;
   width: 204px;
   height: 55px;
+  border: none;
   border-radius: 27.5px;
 }
 
@@ -4286,7 +4287,21 @@ body {
 }
 
 .cookies {
-  background-color: orange;
+  position: fixed;
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.cookies__message {
+  font-family: "Lato", Arial, sans-serif;
 }
 
 .expert-in {

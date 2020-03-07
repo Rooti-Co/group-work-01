@@ -4315,8 +4315,71 @@ body {
   background-color: orange;
 }
 
-.hire {
-  background-color: orange;
+.hire-style {
+  background-color: #409AFF;
+}
+
+.hire-style_padding {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+@media screen and (max-width: 1200px) {
+  .hire-style_padding {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .hire-style_padding {
+    width: 560px;
+  }
+}
+
+.hire-article {
+  font-family: "Lato", Arial, sans-serif;
+  font-weight: 300;
+  color: white;
+  font-size: 50px;
+}
+
+.hire-article_mod {
+  font-family: "Lato", Arial, sans-serif;
+  font-weight: 700;
+  color: white;
+  font-size: 50px;
+}
+
+.hire-button {
+  font-family: "Lato", Arial, sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  background-color: white;
+  border: none;
+  border-radius: 70px;
+  color: #409AFF;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 70px;
+  padding-left: 70px;
 }
 
 .info-popup {

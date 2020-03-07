@@ -4294,7 +4294,35 @@ body {
 }
 
 .hire-popup {
-  background-color: orange;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.Hire_Me {
+  color: #3677fd;
+  font-size: 34px;
+  font-family: "Myriad Pro";
+  line-height: 1.96;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.hire-popup__input {
+  padding-left: 15px;
+  margin-bottom: 16px;
+  border-radius: 10px;
+  width: 100%;
+  height: 50px;
+}
+
+#textarea {
+  padding-top: 10px;
+  resize: none;
+  width: 100%;
+  height: 200px;
+  border-radius: 10px;
+  padding-left: 15px;
 }
 
 .hire {

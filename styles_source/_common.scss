@@ -19,6 +19,8 @@ $article-title-color: #3677fd;
     color: $article-title-color;
     font-size: 50px;
     text-align: center;
+    padding: 0;
+    margin: 0;
 }
 
 @mixin bg-white {

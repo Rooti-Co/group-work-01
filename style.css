@@ -4218,6 +4218,8 @@ body {
   color: #3677fd;
   font-size: 50px;
   text-align: center;
+  padding: 0;
+  margin: 0;
 }
 
 .modal-block-bg {
@@ -4278,7 +4280,17 @@ body {
 }
 
 .about {
-  background-color: orange;
+  background-color: #fff;
+  padding: 100px 0 120px 0;
+}
+
+.about_article {
+  font-size: 16px;
+  font-weight: 400;
+  color: #5a5a5a;
+  text-align: center;
+  line-height: 35px;
+  padding-top: 70px;
 }
 
 .clients {

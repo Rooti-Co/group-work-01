@@ -1,5 +1,21 @@
 // (C) RootiCo
 
 .latest-works {
-    background-color: orange;
+    .latest-works__wrapper{
+        .latest-works__title-wrapper{
+            padding-top: 80px;
+            padding-bottom: 60px;
+            .latest-works__title{
+                font-family: $primary-font;
+                font-weight: 300;
+                color: $article-title-color;
+                font-size: 50px;
+                text-align: center;
+            }
+        }
+        .latest-works__works-section{
+            margin: 0 auto;
+            margin-bottom: 200px;
+        }
+    }
 }

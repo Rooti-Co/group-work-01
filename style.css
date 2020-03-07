@@ -4212,6 +4212,10 @@ body {
   margin: 0;
 }
 
+.modal-block-bg {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
 .about {
   background-color: orange;
 }

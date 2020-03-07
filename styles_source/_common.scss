@@ -21,13 +21,16 @@ body {
     text-transform: uppercase;
     font-size: 16px;
     line-height: 1.875;
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
     width: 204px;
     height: 55px;
+    border-radius: 27.5px;
 
     &--blue {
-        background-color: rgb(54, 149, 255);
+        background: linear-gradient(0deg, rgba(54,149,255,1) 0%, rgba(53,100,252,1) 100%);
         color: rgb(255, 255, 255);
     }
 
@@ -37,25 +40,14 @@ body {
         height: 30px;
         color: rgb(25, 66, 119);
         line-height: 1.364;
-        font-size: 22px;
-        -moz-transform: matrix( 0.54901960784314,0,0,0.54545454545455,0,0);
-        -webkit-transform: matrix( 0.54901960784314,0,0,0.54545454545455,0,0);
-        -ms-transform: matrix( 0.54901960784314,0,0,0.54545454545455,0,0);
+        font-size: 12px;
+        border-radius: 15px;
+
+        // Не впевнений чи потрібно
+        // -moz-transform: matrix( 0.54901960784314,0,0,0.54545454545455,0,0);
+        // -webkit-transform: matrix( 0.54901960784314,0,0,0.54545454545455,0,0);
+        // -ms-transform: matrix( 0.54901960784314,0,0,0.54545454545455,0,0);
     }
 
 
-}
-
-.Accept {
-  font-size: 22px;
-  font-family: "Lato";
-  font-weight: bold;
-  text-align: center;
-  -moz-transform: matrix( 0.54901960784314,0,0,0.54545454545455,0,0);
-  -webkit-transform: matrix( 0.54901960784314,0,0,0.54545454545455,0,0);
-  -ms-transform: matrix( 0.54901960784314,0,0,0.54545454545455,0,0);
-  position: absolute;
-  left: 1166.144px;
-  top: 51.082px;
-  z-index: 152;
 }

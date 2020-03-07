@@ -11,3 +11,51 @@ body {
     padding: 0;
     margin: 0;
 }
+
+.button {
+    background-color: rgb(255, 255, 255);
+    color: rgb(54, 149, 255);
+    
+    font-family: $primary-font;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 16px;
+    line-height: 1.875;
+    text-align: center;
+
+    width: 204px;
+    height: 55px;
+
+    &--blue {
+        background-color: rgb(54, 149, 255);
+        color: rgb(255, 255, 255);
+    }
+
+
+    &--small {
+        width: 112px;
+        height: 30px;
+        color: rgb(25, 66, 119);
+        line-height: 1.364;
+        font-size: 22px;
+        -moz-transform: matrix( 0.54901960784314,0,0,0.54545454545455,0,0);
+        -webkit-transform: matrix( 0.54901960784314,0,0,0.54545454545455,0,0);
+        -ms-transform: matrix( 0.54901960784314,0,0,0.54545454545455,0,0);
+    }
+
+
+}
+
+.Accept {
+  font-size: 22px;
+  font-family: "Lato";
+  font-weight: bold;
+  text-align: center;
+  -moz-transform: matrix( 0.54901960784314,0,0,0.54545454545455,0,0);
+  -webkit-transform: matrix( 0.54901960784314,0,0,0.54545454545455,0,0);
+  -ms-transform: matrix( 0.54901960784314,0,0,0.54545454545455,0,0);
+  position: absolute;
+  left: 1166.144px;
+  top: 51.082px;
+  z-index: 152;
+}

@@ -49,5 +49,16 @@ body {
         // -ms-transform: matrix( 0.54901960784314,0,0,0.54545454545455,0,0);
     }
 
+    &--red {
+        width: 288px;
+        height: 93px;
+        border-radius: 5px;
+        background-color: rgb(235, 48, 77);
+        font-family: $secondary-font;
+        color: rgb(255, 255, 255);
+        line-height: 1.2;
+        font-size: 24px;
+    }
+
 
 }

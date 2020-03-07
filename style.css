@@ -4212,6 +4212,13 @@ body {
   margin: 0;
 }
 
+.background-blue-gradient {
+  background-image: -webkit-gradient(linear, right bottom, left top, from(#367cfd), color-stop(#367dfd), color-stop(#367ffe), color-stop(#3680fe), color-stop(#3681fe), color-stop(#3684fe), color-stop(#3686ff), color-stop(#3689ff), color-stop(#378dff), color-stop(#3991ff), color-stop(#3c95ff), to(#4099ff));
+  background-image: linear-gradient(to left top, #367cfd, #367dfd, #367ffe, #3680fe, #3681fe, #3684fe, #3686ff, #3689ff, #378dff, #3991ff, #3c95ff, #4099ff);
+  width: 2000px;
+  height: 872px;
+}
+
 .about {
   background-color: orange;
 }

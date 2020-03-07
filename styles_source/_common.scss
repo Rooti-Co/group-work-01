@@ -3,6 +3,13 @@
 $primary-font: "Lato", Arial, sans-serif;
 $secondary-font: "Montserrat", sans-serif;
 
+/*Colors*/
+$color-bg-primary: rgb(255, 255, 255);
+$color-bg-secondary: rgb(54, 149, 255);
+$color-text-cookies: rgb(25, 66, 119);
+$color-text-primary: rgb(54, 149, 255);
+$color-text-secondary: rgb(255, 255, 255);
+
 * {
     font-family: $primary-font;
 }

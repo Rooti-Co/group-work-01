@@ -16,6 +16,7 @@ body {
 .background-blue-gradient{
         background: linear-gradient(to left top, #367cfd, #367dfd, #367ffe, #3680fe, #3681fe, #3684fe, #3686ff, #3689ff, #378dff, #3991ff, #3c95ff, #4099ff), url(../images/gradient-lines.png);
         background-blend-mode: overlay;
+        background-position-y: bottom;
         width: 100%;
         width: 2000px;
         height: 872px;

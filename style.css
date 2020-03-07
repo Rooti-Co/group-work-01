@@ -4203,6 +4203,7 @@ html {
   }
 }
 
+/*Colors*/
 * {
   font-family: "Lato", Arial, sans-serif;
 }
@@ -4235,8 +4236,8 @@ body {
 }
 
 .button--blue {
-  background: -webkit-gradient(linear, left bottom, left top, from(#3695ff), to(#3564fc));
-  background: linear-gradient(0deg, #3695ff 0%, #3564fc 100%);
+  background: -webkit-gradient(linear, left bottom, left top, from(#3695ff), to(#3695ff));
+  background: linear-gradient(0deg, #3695ff 0%, #3695ff 100%);
   color: white;
 }
 

@@ -3,6 +3,15 @@
 $primary-font: "Lato", Arial, sans-serif;
 $secondary-font: "Montserrat", sans-serif;
 
+/*Colors*/
+$color-bg-primary: rgb(255, 255, 255);
+$color-bg-secondary: rgb(54, 149, 255);
+$color-bg-info: rgb(235, 48, 77);
+
+$color-text-cookies: rgb(25, 66, 119);
+$color-text-primary: rgb(54, 149, 255);
+$color-text-secondary: rgb(255, 255, 255);
+
 * {
     font-family: $primary-font;
 }
@@ -13,8 +22,8 @@ body {
 }
 
 .button {
-    background-color: rgb(255, 255, 255);
-    color: rgb(54, 149, 255);
+    background-color: $color-bg-primary;
+    color: $color-text-primary;
     
     font-family: $primary-font;
     font-weight: bold;
@@ -30,15 +39,15 @@ body {
     border-radius: 27.5px;
 
     &--blue {
-        background: linear-gradient(0deg, rgba(54,149,255,1) 0%, rgba(53,100,252,1) 100%);
-        color: rgb(255, 255, 255);
+        background: linear-gradient(0deg, rgba(54,149,255,1) 0%, $color-bg-secondary 100%);
+        color: $color-text-secondary;
     }
 
 
     &--small {
         width: 112px;
         height: 30px;
-        color: rgb(25, 66, 119);
+        color: $color-text-cookies;
         line-height: 1.364;
         font-size: 12px;
         border-radius: 15px;
@@ -53,7 +62,7 @@ body {
         width: 288px;
         height: 93px;
         border-radius: 5px;
-        background-color: rgb(235, 48, 77);
+        background-color: $color-bg-info;
         font-family: $secondary-font;
         color: rgb(255, 255, 255);
         line-height: 1.2;

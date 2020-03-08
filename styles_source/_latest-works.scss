@@ -1,10 +1,9 @@
 // (C) RootiCo
-
 .latest-works {
     .latest-works__wrapper{
         .latest-works__title-wrapper{
-            padding-top: 80px;
-            padding-bottom: 60px;
+            margin-top: 40px;
+            margin-bottom: 25px;
             .latest-works__title{
                 font-family: $primary-font;
                 font-weight: 300;
@@ -15,7 +14,47 @@
         }
         .latest-works__works-section{
             margin: 0 auto;
-            margin-bottom: 200px;
+            margin-bottom: 175px;
+            .works-section__work-container{
+                border-style: solid;
+                border: none;
+                border-radius: 10px;
+                background-color: rgb(244, 244, 244);
+                padding-left: 43px;
+                padding-right: 43px;
+                margin: 0 auto;
+                display: flex;
+                justify-content: center;
+                align-content: center;
+                width: 358px;
+                height: 270px;
+                box-sizing: border-box;
+                position: relative;
+                transition: all 0.3s;
+                .works-section__work-box{
+                    position: absolute;
+                    transition: all 0.3s;
+                }
+                .works-section__work-box--row1{
+                    bottom: -10px;
+                }
+                .works-section__work-box--row2{
+                    justify-content: center;
+                    align-self: center;
+                }
+            }
+            .works-section__work-container:hover{
+                background-color: rgb(241,248,255);
+                transition: all 0.3s;
+            }
+            .works-section__work-container:hover .works-section__work-box{
+                transform: translatey(-10px);
+                transition: all 0.3s;
+            }
+            .works-section__work-container:hover .works-section__work-box .works-img{
+                text-shadow: -1px 4px 7px -1px rgba(181,181,181,0.76);
+            }
+
         }
     }
 }

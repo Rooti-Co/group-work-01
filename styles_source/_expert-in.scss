@@ -10,3 +10,52 @@
         margin-top: 95px;
     }
 }
+
+.expert-in__tit {
+    
+    font-family: $primary-font;
+    font-weight: 300;
+    color: $article-title-color;
+    font-size: 50px;
+    text-align: center;
+}
+.exp__maket {
+    display: inline-flex;
+    flex-direction: column;
+    height: 410px;
+    width: 100%;
+}
+.exp__maket__ico {
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+}
+.exp__maket__article__tit {
+   
+    font-family: $primary-font;
+    color: $article-title-color;
+    font-size: 24px;
+    font-weight: 800;
+    text-align: center;
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+}
+.exp__maket__article {
+    margin-top: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    font-weight: 600;
+    line-height: 25px;
+    text-align: center;
+        font-size: 16px;
+        font-family: "Lato";
+        color: rgb(90, 90, 90);
+        line-height: 2.188;
+        text-align: center;
+       
+ 
+    }

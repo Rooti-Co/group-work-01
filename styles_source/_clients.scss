@@ -1,5 +1,44 @@
 // (C) RootiCo
+$primary-font: "Lato", Arial, sans-serif;
+
+h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    font-weight: 300;
+    color: $article-title-color;
+    padding-top: 96px;
+}
 
 .clients {
-    background-color: orange;
+    @include bg-gray;
+    text-align: center;
+}
+
+.container_clients {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 77px;
+    padding-bottom: 99px;
+}
+
+.logo_imm {
+    width: 140px;
+    height: 52px;
+}
+.logo_MSFT {
+    width: 192px;
+    height: 41px;
+}
+
+.logo_Samsung {
+    width: 185px;
+    height: 28px;
+}
+
+.logo_google {
+    width: 170px;
+    height: 56px;
 }

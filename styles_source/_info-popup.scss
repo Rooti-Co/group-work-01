@@ -1,5 +1,52 @@
 // (C) RootiCo
 
-.info-popup {
-    background-color: orange;
+// .info-popup {
+//     background-color: orange;
+// }
+
+.info-container {
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 55px 0px rgba(0, 0, 0, 0.35);
+    top: 200px;
+    min-width: 360px;
+}
+.info-circle {
+    // position: absolute;
+    // top: -180px;
+    background-color: white;
+    width: 360px;
+    height: 360px;
+    min-width: 360px;
+    border-radius: 100%;
+    box-shadow: 0px 0px 60px 0px rgba(141, 150, 185, 0.6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+}
+.info-primary-title {
+    font-family: $secondary-font;
+    font-weight: 700;
+    font-size: 48px;
+    color: #DA2D43;
+    padding-top: 90px;
+    text-align: center;
+}
+.info-secondary-title {
+    font-family: $secondary-font;
+    font-size: 24px;
+    color: #B9BCD1;
+    text-align: center;
+    padding-top: 25px;
+}
+.info-button-container {
+    display: flex;
+    justify-content: center;
+    padding-top: 85px;
+    padding-bottom: 55px;
+}
+.row1 {
+    margin: 0 auto;
+    margin-top: -180px;
 }

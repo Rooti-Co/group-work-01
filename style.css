@@ -4230,6 +4230,7 @@ body {
   right: 0;
   bottom: 0;
   background-color: rgba(0, 0, 0, 0.7);
+  overflow-y: scroll;
 }
 
 .button {
@@ -4500,8 +4501,67 @@ body {
   padding-left: 70px;
 }
 
-.info-popup {
-  background-color: orange;
+.info-container {
+  border-radius: 5px;
+  background-color: white;
+  -webkit-box-shadow: 0px 0px 55px 0px rgba(0, 0, 0, 0.35);
+          box-shadow: 0px 0px 55px 0px rgba(0, 0, 0, 0.35);
+  top: 200px;
+  min-width: 360px;
+}
+
+.info-circle {
+  background-color: white;
+  width: 360px;
+  height: 360px;
+  min-width: 360px;
+  border-radius: 100%;
+  -webkit-box-shadow: 0px 0px 60px 0px rgba(141, 150, 185, 0.6);
+          box-shadow: 0px 0px 60px 0px rgba(141, 150, 185, 0.6);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-item-align: center;
+      align-self: center;
+}
+
+.info-primary-title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 48px;
+  color: #DA2D43;
+  padding-top: 90px;
+  text-align: center;
+}
+
+.info-secondary-title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  color: #B9BCD1;
+  text-align: center;
+  padding-top: 25px;
+}
+
+.info-button-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 85px;
+  padding-bottom: 55px;
+}
+
+.row1 {
+  margin: 0 auto;
+  margin-top: -180px;
 }
 
 .latest-works .latest-works__wrapper .latest-works__title-wrapper {
@@ -4583,8 +4643,74 @@ body {
   text-shadow: -1px 4px 7px -1px rgba(181, 181, 181, 0.76);
 }
 
+.menu-popup--off {
+  display: none;
+}
+
+.menu-popup--on {
+  display: block;
+}
+
 .menu-popup {
-  background-color: orange;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.menu-popup__close:hover svg {
+  fill: #3677fd;
+}
+
+.menu-popup__item a {
+  text-decoration: none;
+  font-family: "Lato", Arial, sans-serif;
+  font-weight: 300;
+  font-size: 50px;
+  color: #d2d2d2;
+  line-height: 2;
+}
+
+.menu-popup__item :hover {
+  color: #3677fd;
+}
+
+.menu-popup__icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #e1e1e1;
+}
+
+.menu-popup__icon a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.menu-popup__icon:hover {
+  background-color: #3677fd;
+}
+
+.menu-popup__language {
+  font-family: "Lato", Arial, sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  color: #d2d2d2;
+}
+
+.menu-popup__language :hover {
+  cursor: pointer;
 }
 
 .menu {

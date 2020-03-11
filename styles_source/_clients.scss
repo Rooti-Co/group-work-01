@@ -1,14 +1,6 @@
 // (C) RootiCo
-$primary-font: "Lato", Arial, sans-serif;
 
-h1 {
-    display: flex;
-    justify-content: center;
-    font-size: 50px;
-    font-weight: 300;
-    color: $article-title-color;
-    padding-top: 96px;
-}
+$primary-font: "Lato", Arial, sans-serif;
 
 .clients {
     @include bg-gray;
@@ -22,6 +14,24 @@ h1 {
     align-items: center;
     padding-top: 77px;
     padding-bottom: 99px;
+    @media screen and (max-width: 1200px) {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    @media screen and (max-width: 560px) {
+        width: 560px;
+    }
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    font-weight: 300;
+    color: $article-title-color;
+    padding-top: 96px;
 }
 
 .logo_imm {
